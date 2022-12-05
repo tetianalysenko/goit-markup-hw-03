@@ -61,7 +61,7 @@ img{
 
 
 .container{
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
     width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
@@ -230,7 +230,7 @@ letter-spacing: 0.04em;
 
 
 .features {
-outline: 3px solid red;
+/* outline: 3px solid red; */
 padding-top: 120px;
 margin-bottom: 120px;
 }
@@ -289,7 +289,7 @@ letter-spacing: 0.02em;
 
 .tasks {
     margin-bottom: 120px;
-    outline: 3px solid red;
+    /* outline: 3px solid red; */
 }
 
 .tasks-block {
@@ -369,6 +369,9 @@ letter-spacing: 0.02em;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 .filterbutton:hover,
