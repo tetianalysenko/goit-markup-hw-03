@@ -1,0 +1,247 @@
+/* колір заголовків, навігації  color: #2E2F42; */
+/* колір тексту color: #434455; */
+/* колір лого  ВЕБ color: #4D5AE5; */
+/* колір посилань background: #4D5AE5; */
+/* колір тексту футера color: #E7E9FC; */
+/* колір лого футер СТУДІО та фону сект  color: #F4F4FD; */
+
+
+:root {
+    --main-text-color: #434455;
+    --title-text-color: #2E2F42;
+    --accent-text-color: #4D5AE5;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #F4F4FD;
+    --button-hover-color: #404BBF;
+}
+
+ul {
+    list-style: none;
+}
+
+.lineout {
+    text-decoration: none;
+}
+
+
+  body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+p {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+/* ======================== HEADER================== */
+
+/* Логотип */
+.logo-text {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-text-color);
+}
+
+.studiotext-header {
+ color: var(--title-text-color);
+}
+
+
+.studiotext-footer {
+    color: var(--secondary-bg-color);
+   }
+
+
+/* Головна навігація */
+.site-nav .link {
+color: var(--title-text-color);
+}
+
+.site-nav .link-current {
+    color: var(--accent-text-color);
+    }
+
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+     color:var(--accent-text-color); 
+    /* color: orange; */
+}
+
+
+.site-nav .link:active {
+    color: var(--accent-text-color);
+}
+
+
+/* Посилання авторизації */
+
+.auth-nav a {
+    color: var(--main-text-color);
+}
+
+
+.auth-nav a:hover, 
+.auth-nav a:focus {
+    color: var(--accent-text-color);
+}
+
+
+
+
+/* ==========================HERO INDEX FILE====================== */
+
+ .hero { 
+/* position: absolute;
+width: 1440px;
+height: 603px;
+left: 0px;
+top: 72px;  */
+background: #2E2F42;
+  }   
+
+.main-title {
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;   
+    color: var(--main-bg-color); 
+}
+
+
+
+.orderbutton {
+background-color: var(--accent-text-color);
+color: var(--main-bg-color);
+cursor: pointer;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.26;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+
+}
+
+.orderbutton:hover,
+.orderbutton:focus {
+    background-color: var(--button-hover-color);
+}
+
+
+
+/* ===========================BODY INDEX==================== */
+
+.section-title {
+color:var(--title-text-color);
+/* font-family: 'Roboto', sans-serif; */
+font-weight: 500;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+}
+
+.features-title {
+color: var(--title-text-color);
+/* font-family: 'Roboto', sans-serif; */
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+
+
+.features p {
+/* font-family: 'Roboto', sans-serif; */
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+
+
+.team-name {
+color: var(--title-text-color);
+/* font-family: 'Roboto', sans-serif; */
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+
+
+/* ========== PAGE PORTFOLIO====================== */
+
+.card-title {
+    color: var(--title-text-color);
+}
+
+
+.filterbutton {
+    background-color: var(--secondary-bg-color);
+    color: var(--accent-text-color);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+}
+
+.filterbutton:hover,
+.filterbutton:focus {
+    background-color: var(--accent-text-color);
+    color: var(--main-bg-color);
+}
+
+.card-title {
+    color: var(--title-text-color);
+    /* font-family: 'Roboto', sans-serif; */
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em; 
+}
+
+
+
+/* =====================FOOTER======================== */
+
+.gen-footer {
+    background-color:#2E2F42;
+}
+
+.studiotext-footer {
+    color: var(--secondary-bg-color);
+   }
+
+.footer-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #E7E9FC;
+    }
+
+
