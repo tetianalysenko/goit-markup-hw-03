@@ -431,7 +431,10 @@ letter-spacing: 0.02em;
 
 .gen-footer {
     background-color:#2E2F42;
+    height: 310px;
+    padding-top: 100px;
 }
+
 
 .studiotext-footer {
     color: var(--secondary-bg-color);
@@ -439,6 +442,7 @@ letter-spacing: 0.02em;
    }
 
 .gen-footer .footer-text {
+    padding-top: 16px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
