@@ -320,6 +320,8 @@ letter-spacing: 0.02em;
 
 .team-card {
     background-color: #ffffff;
+    text-align: center;
+    padding-bottom: 32px;
 }
 
 .team-card:not(:first-child) {
