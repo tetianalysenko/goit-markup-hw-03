@@ -78,6 +78,7 @@ img{
 .header-page {
     display: flex;
     align-items: center;
+    height: 70px;
 }
 
 
