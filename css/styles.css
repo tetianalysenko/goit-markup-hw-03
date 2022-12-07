@@ -113,8 +113,8 @@ color: var(--accent-text-color);
 /* Головна навігація */
 .site-nav .link {
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
 
 color: var(--title-text-color);
 }
@@ -207,6 +207,7 @@ padding-top: 192px;
 
 
 .orderbutton {
+    padding: 16px 32px;;
 background-color: var(--accent-text-color);
 color: var(--main-bg-color);
 cursor: pointer;
@@ -233,7 +234,7 @@ letter-spacing: 0.04em;
 .features {
 /* outline: 3px solid red; */
 padding-top: 120px;
-margin-bottom: 120px;
+padding-bottom: 120px;
 }
 
 
@@ -262,6 +263,7 @@ text-transform: capitalize;
 
 .features-elem:not(:first-child) {
     margin-left: 24px;
+   
     
 }
 
@@ -289,7 +291,7 @@ letter-spacing: 0.02em;
 /* ================================section tasks============================== */
 
 .tasks {
-    margin-bottom: 120px;
+    padding-bottom: 120px;
     /* outline: 3px solid red; */
 }
 
@@ -320,8 +322,14 @@ letter-spacing: 0.02em;
 
 .team-card {
     background-color: #ffffff;
-    text-align: center;
+    /* text-align: center; */
+    /* padding-bottom: 32px; */
+}
+
+.card-description {
     padding-bottom: 32px;
+    padding-top: 32px;
+    text-align: center;
 }
 
 .team-card:not(:first-child) {
@@ -333,7 +341,7 @@ letter-spacing: 0.02em;
     background-color: #ffffff;
 color: var(--title-text-color);
 
-margin-top: 32px;
+/* margin-top: 32px; */
 margin-bottom: 8px;
 /* font-family: 'Roboto', sans-serif; */
 font-weight: 500;
@@ -345,6 +353,11 @@ letter-spacing: 0.02em;
 
 
 /* ========== PAGE PORTFOLIO====================== */
+
+
+    .topline {
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    }
 
 .card-title {
     color: var(--title-text-color);
@@ -369,12 +382,17 @@ letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    display: flex;
-    align-items: center;
+    text-align: center;
+
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+
+    /* display: flex;
+    align-items: center; */
     letter-spacing: 0.04em;
     height: 48px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 12px 24px ;
+    
 }
 
 .filterbutton:hover,
@@ -390,8 +408,8 @@ letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em; 
-    margin-top: 32px;
-    margin-left: 16px;
+    /* margin-top: 32px; */
+    /* margin-left: 16px; */
 }
 
 
@@ -414,6 +432,9 @@ letter-spacing: 0.02em;
     margin-bottom: 48px;
     padding-bottom: 32px;
     border: 0.5px solid teal;
+
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     /* margin-right: 24px; */
 }
 
@@ -426,10 +447,18 @@ letter-spacing: 0.02em;
    
 }
 
+.products-description {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
 .products-text{
     margin-top: 8px;
-    margin-left: 16px;
+    /* margin-left: 16px; */
 }
+
+
 
 
 
